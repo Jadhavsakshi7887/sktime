@@ -178,7 +178,7 @@ class SkforecastAutoreg(BaseForecaster):
 
     def _create_forecaster(self: "SkforecastAutoreg"):
         """Create ``skforecast.ForecasterAutoreg.ForecasterAutoreg`` model."""
-        from skforecast.ForecasterAutoreg import ForecasterAutoreg
+        from skforecast.ForecasterAutoreg import ForecasterAutore
 
         return ForecasterAutoreg(
             self._regressor,
